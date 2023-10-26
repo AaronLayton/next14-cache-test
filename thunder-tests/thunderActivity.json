@@ -288,5 +288,39 @@
       }
     ],
     "tests": []
+  },
+  {
+    "_id": "09013334-aa0c-4cdd-a1df-1a9c238a1422",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://cache-test-inky.vercel.app/api/user/",
+    "url": "https://cache-test-inky.vercel.app/api/user/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:40:51.701Z",
+    "modified": "2023-10-26T20:40:51.701Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "3569f7aa-47e8-4146-bdd0-741d9955aafa",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://cache-test-inky.vercel.app/api/cache/path?url=/api/user",
+    "url": "https://cache-test-inky.vercel.app/api/cache/path?url=/api/user",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:40:59.080Z",
+    "modified": "2023-10-26T20:40:59.080Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "url",
+        "value": "/api/user",
+        "isPath": false
+      }
+    ],
+    "tests": []
   }
 ]
