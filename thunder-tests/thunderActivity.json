@@ -106,5 +106,59 @@
       }
     ],
     "tests": []
+  },
+  {
+    "_id": "95973e01-4716-4adc-b66d-c48ea1697631",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://cache-test-inky.vercel.app/api/test",
+    "url": "https://cache-test-inky.vercel.app/api/test",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:19:23.467Z",
+    "modified": "2023-10-26T20:19:23.467Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ed7e1936-c741-4530-b2a5-18bac257a869",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://cache-test-inky.vercel.app/api/cache/path?url=api/test",
+    "url": "https://cache-test-inky.vercel.app/api/cache/path?url=api/test",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:19:29.850Z",
+    "modified": "2023-10-26T20:19:29.850Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "url",
+        "value": "api/test",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "d9970f85-10e2-4911-bc4d-f365d327abe2",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://cache-test-inky.vercel.app/api/cache/path?url=/api/test",
+    "url": "https://cache-test-inky.vercel.app/api/cache/path?url=/api/test",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:19:37.620Z",
+    "modified": "2023-10-26T20:19:37.620Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "url",
+        "value": "/api/test",
+        "isPath": false
+      }
+    ],
+    "tests": []
   }
 ]
