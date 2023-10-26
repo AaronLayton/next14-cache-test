@@ -160,5 +160,33 @@
       }
     ],
     "tests": []
+  },
+  {
+    "_id": "29bfd866-43a2-4977-9b69-1bd185eaa124",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://cache-test-inky.vercel.app/api/user/1",
+    "url": "https://cache-test-inky.vercel.app/api/user/1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:30:00.830Z",
+    "modified": "2023-10-26T20:30:00.830Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "543ac087-fbf6-4183-b71f-7ea2eb6642ed",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://cache-test-inky.vercel.app/api/user/1/bookmarks",
+    "url": "https://cache-test-inky.vercel.app/api/user/1/bookmarks",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:30:08.398Z",
+    "modified": "2023-10-26T20:30:08.398Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
