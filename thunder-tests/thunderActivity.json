@@ -188,5 +188,105 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "a68b94a2-911b-43e1-80f9-0db5e8e25060",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://cache-test-inky.vercel.app/api/cache/path?url=/api/user/1/bookmarks",
+    "url": "https://cache-test-inky.vercel.app/api/cache/path?url=/api/user/1/bookmarks",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:32:36.201Z",
+    "modified": "2023-10-26T20:32:36.201Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "url",
+        "value": "/api/user/1/bookmarks",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "86082cf0-c457-4471-a5b3-91f68831a091",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/cache/tag?tag=team-bookmarks-1",
+    "url": "http://localhost:3000/api/cache/tag?tag=team-bookmarks-1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:33:20.857Z",
+    "modified": "2023-10-26T20:33:20.857Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "tag",
+        "value": "team-bookmarks-1",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "bc12a026-9ce1-49aa-9e42-c1dd8264d8f3",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/cache/tag?tag=team-bookmarks-2",
+    "url": "http://localhost:3000/api/cache/tag?tag=team-bookmarks-2",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:34:00.295Z",
+    "modified": "2023-10-26T20:34:00.295Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "tag",
+        "value": "team-bookmarks-2",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "e112ac26-b333-4e83-b718-46c95f31c245",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/cache/tag?tag=team-bookmarks-3",
+    "url": "http://localhost:3000/api/cache/tag?tag=team-bookmarks-3",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:34:01.583Z",
+    "modified": "2023-10-26T20:34:01.583Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "tag",
+        "value": "team-bookmarks-3",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "5c8f2895-67b3-4f05-ac2a-2dfbd1588994",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/cache/tag?tag=team-bookmarks-4",
+    "url": "http://localhost:3000/api/cache/tag?tag=team-bookmarks-4",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:34:02.361Z",
+    "modified": "2023-10-26T20:34:02.361Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "tag",
+        "value": "team-bookmarks-4",
+        "isPath": false
+      }
+    ],
+    "tests": []
   }
 ]
