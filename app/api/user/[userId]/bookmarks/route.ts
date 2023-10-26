@@ -1,6 +1,8 @@
 import { getTeamBookmarks } from "@/app/utils/utils";
 import { NextResponse } from "next/server"
 
+export const dynamic = 'force-static'
+
 export const GET = async () => {
     // const team1Bookmarks = await getTeamBookmarks("1");
     // const team2Bookmarks = await getTeamBookmarks("2");
