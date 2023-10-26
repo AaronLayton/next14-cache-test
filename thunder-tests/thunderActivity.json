@@ -322,5 +322,39 @@
       }
     ],
     "tests": []
+  },
+  {
+    "_id": "4988f7e5-84fa-4bf1-82c2-0c20cbf2737a",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://next14-cache-test.vercel.app/api/user/1/bookmarks",
+    "url": "https://next14-cache-test.vercel.app/api/user/1/bookmarks",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T21:22:27.823Z",
+    "modified": "2023-10-26T21:22:27.823Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "187d856a-cffe-4331-91c6-ab145827a8e6",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://next14-cache-test.vercel.app/api/cache/path?url=/api/user/1/bookmarks",
+    "url": "https://next14-cache-test.vercel.app/api/cache/path?url=/api/user/1/bookmarks",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T21:22:52.153Z",
+    "modified": "2023-10-26T21:22:52.153Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "url",
+        "value": "/api/user/1/bookmarks",
+        "isPath": false
+      }
+    ],
+    "tests": []
   }
 ]
