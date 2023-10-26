@@ -4,11 +4,11 @@ import { NextResponse } from "next/server"
 export const dynamic = 'force-static'
 export const revalidate = 'force-cache'
 
-export const GET = () => {
-    const team1Bookmarks = getTeamBookmarks("1");
-    const team2Bookmarks = getTeamBookmarks("2");
-    const team3Bookmarks = getTeamBookmarks("3");
-    const team4Bookmarks = getTeamBookmarks("4");
+export const GET = async () => {
+    const team1Bookmarks = await getTeamBookmarks("1");
+    const team2Bookmarks = await getTeamBookmarks("2");
+    const team3Bookmarks = await getTeamBookmarks("3");
+    const team4Bookmarks = await getTeamBookmarks("4");
 
     const currentTimestamp = new Date();
 
