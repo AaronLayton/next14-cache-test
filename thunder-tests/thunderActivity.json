@@ -1,0 +1,110 @@
+[
+  {
+    "_id": "69b18d80-2adc-4bbd-acaf-c619a7432460",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/test",
+    "url": "http://localhost:3000/api/test",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T19:46:17.361Z",
+    "modified": "2023-10-26T19:46:17.361Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "8ef55e82-868d-4710-9af7-7869e0c7d4e5",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/cache",
+    "url": "http://localhost:3000/api/cache",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T19:53:09.828Z",
+    "modified": "2023-10-26T19:53:09.828Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "aa1be801-1636-4dad-a2a7-940bdbe9c78b",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/cache?url=/api/test",
+    "url": "http://localhost:3000/api/cache?url=/api/test",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T19:53:19.650Z",
+    "modified": "2023-10-26T19:53:19.650Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "url",
+        "value": "/api/test",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "122e2bd9-a6cf-4f3d-b562-e90de4e2bbf8",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/cache/path?url=/api/test",
+    "url": "http://localhost:3000/api/cache/path?url=/api/test",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:07:51.704Z",
+    "modified": "2023-10-26T20:07:51.704Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "url",
+        "value": "/api/test",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "3e44a961-c096-4f92-a7df-f9b3f7e2db5b",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/cache/tag?tag=/api/test",
+    "url": "http://localhost:3000/api/cache/tag?tag=/api/test",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:11:09.338Z",
+    "modified": "2023-10-26T20:11:09.338Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "tag",
+        "value": "/api/test",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "2d4b8709-7a0c-437a-88f4-5f2d8ae163a1",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/cache/path?url=api/test",
+    "url": "http://localhost:3000/api/cache/path?url=api/test",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-10-26T20:11:21.511Z",
+    "modified": "2023-10-26T20:11:21.511Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "url",
+        "value": "api/test",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]
